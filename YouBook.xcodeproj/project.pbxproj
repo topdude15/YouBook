@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFDE6CF41E9BC48A002C00E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE6CF31E9BC48A002C00E1 /* AppDelegate.swift */; };
+		CFDE6CF61E9BC48A002C00E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE6CF51E9BC48A002C00E1 /* ViewController.swift */; };
+		CFDE6CF91E9BC48A002C00E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDE6CF71E9BC48A002C00E1 /* Main.storyboard */; };
+		CFDE6CFB1E9BC48B002C00E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDE6CFA1E9BC48B002C00E1 /* Assets.xcassets */; };
+		CFDE6CFE1E9BC48B002C00E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDE6CFC1E9BC48B002C00E1 /* LaunchScreen.storyboard */; };
+		CFDE6D091E9BC48C002C00E1 /* YouBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE6D081E9BC48C002C00E1 /* YouBookTests.swift */; };
+		CFDE6D141E9BC48C002C00E1 /* YouBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE6D131E9BC48C002C00E1 /* YouBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFDE6D051E9BC48C002C00E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDE6CE81E9BC48A002C00E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDE6CEF1E9BC48A002C00E1;
+			remoteInfo = YouBook;
+		};
+		CFDE6D101E9BC48C002C00E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDE6CE81E9BC48A002C00E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDE6CEF1E9BC48A002C00E1;
+			remoteInfo = YouBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFDE6CF01E9BC48A002C00E1 /* YouBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDE6CF31E9BC48A002C00E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFDE6CF51E9BC48A002C00E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFDE6CF81E9BC48A002C00E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFDE6CFA1E9BC48B002C00E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFDE6CFD1E9BC48B002C00E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFDE6CFF1E9BC48B002C00E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDE6D041E9BC48C002C00E1 /* YouBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDE6D081E9BC48C002C00E1 /* YouBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouBookTests.swift; sourceTree = "<group>"; };
+		CFDE6D0A1E9BC48C002C00E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDE6D0F1E9BC48C002C00E1 /* YouBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDE6D131E9BC48C002C00E1 /* YouBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouBookUITests.swift; sourceTree = "<group>"; };
+		CFDE6D151E9BC48C002C00E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFDE6CED1E9BC48A002C00E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE6D011E9BC48C002C00E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE6D0C1E9BC48C002C00E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFDE6CE71E9BC48A002C00E1 = {
+			isa = PBXGroup;
+			children = (
+				CFDE6CF21E9BC48A002C00E1 /* YouBook */,
+				CFDE6D071E9BC48C002C00E1 /* YouBookTests */,
+				CFDE6D121E9BC48C002C00E1 /* YouBookUITests */,
+				CFDE6CF11E9BC48A002C00E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFDE6CF11E9BC48A002C00E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE6CF01E9BC48A002C00E1 /* YouBook.app */,
+				CFDE6D041E9BC48C002C00E1 /* YouBookTests.xctest */,
+				CFDE6D0F1E9BC48C002C00E1 /* YouBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFDE6CF21E9BC48A002C00E1 /* YouBook */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE6CF31E9BC48A002C00E1 /* AppDelegate.swift */,
+				CFDE6CF51E9BC48A002C00E1 /* ViewController.swift */,
+				CFDE6CF71E9BC48A002C00E1 /* Main.storyboard */,
+				CFDE6CFA1E9BC48B002C00E1 /* Assets.xcassets */,
+				CFDE6CFC1E9BC48B002C00E1 /* LaunchScreen.storyboard */,
+				CFDE6CFF1E9BC48B002C00E1 /* Info.plist */,
+			);
+			path = YouBook;
+			sourceTree = "<group>";
+		};
+		CFDE6D071E9BC48C002C00E1 /* YouBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE6D081E9BC48C002C00E1 /* YouBookTests.swift */,
+				CFDE6D0A1E9BC48C002C00E1 /* Info.plist */,
+			);
+			path = YouBookTests;
+			sourceTree = "<group>";
+		};
+		CFDE6D121E9BC48C002C00E1 /* YouBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE6D131E9BC48C002C00E1 /* YouBookUITests.swift */,
+				CFDE6D151E9BC48C002C00E1 /* Info.plist */,
+			);
+			path = YouBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFDE6CEF1E9BC48A002C00E1 /* YouBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDE6D181E9BC48C002C00E1 /* Build configuration list for PBXNativeTarget "YouBook" */;
+			buildPhases = (
+				CFDE6CEC1E9BC48A002C00E1 /* Sources */,
+				CFDE6CED1E9BC48A002C00E1 /* Frameworks */,
+				CFDE6CEE1E9BC48A002C00E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouBook;
+			productName = YouBook;
+			productReference = CFDE6CF01E9BC48A002C00E1 /* YouBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFDE6D031E9BC48C002C00E1 /* YouBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDE6D1B1E9BC48C002C00E1 /* Build configuration list for PBXNativeTarget "YouBookTests" */;
+			buildPhases = (
+				CFDE6D001E9BC48C002C00E1 /* Sources */,
+				CFDE6D011E9BC48C002C00E1 /* Frameworks */,
+				CFDE6D021E9BC48C002C00E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDE6D061E9BC48C002C00E1 /* PBXTargetDependency */,
+			);
+			name = YouBookTests;
+			productName = YouBookTests;
+			productReference = CFDE6D041E9BC48C002C00E1 /* YouBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDE6D0E1E9BC48C002C00E1 /* YouBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDE6D1E1E9BC48C002C00E1 /* Build configuration list for PBXNativeTarget "YouBookUITests" */;
+			buildPhases = (
+				CFDE6D0B1E9BC48C002C00E1 /* Sources */,
+				CFDE6D0C1E9BC48C002C00E1 /* Frameworks */,
+				CFDE6D0D1E9BC48C002C00E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDE6D111E9BC48C002C00E1 /* PBXTargetDependency */,
+			);
+			name = YouBookUITests;
+			productName = YouBookUITests;
+			productReference = CFDE6D0F1E9BC48C002C00E1 /* YouBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFDE6CE81E9BC48A002C00E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Trevor Rose";
+				TargetAttributes = {
+					CFDE6CEF1E9BC48A002C00E1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9F5M35K84C;
+						ProvisioningStyle = Automatic;
+					};
+					CFDE6D031E9BC48C002C00E1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9F5M35K84C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFDE6CEF1E9BC48A002C00E1;
+					};
+					CFDE6D0E1E9BC48C002C00E1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9F5M35K84C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFDE6CEF1E9BC48A002C00E1;
+					};
+				};
+			};
+			buildConfigurationList = CFDE6CEB1E9BC48A002C00E1 /* Build configuration list for PBXProject "YouBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFDE6CE71E9BC48A002C00E1;
+			productRefGroup = CFDE6CF11E9BC48A002C00E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFDE6CEF1E9BC48A002C00E1 /* YouBook */,
+				CFDE6D031E9BC48C002C00E1 /* YouBookTests */,
+				CFDE6D0E1E9BC48C002C00E1 /* YouBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFDE6CEE1E9BC48A002C00E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDE6CFE1E9BC48B002C00E1 /* LaunchScreen.storyboard in Resources */,
+				CFDE6CFB1E9BC48B002C00E1 /* Assets.xcassets in Resources */,
+				CFDE6CF91E9BC48A002C00E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE6D021E9BC48C002C00E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE6D0D1E9BC48C002C00E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFDE6CEC1E9BC48A002C00E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDE6CF61E9BC48A002C00E1 /* ViewController.swift in Sources */,
+				CFDE6CF41E9BC48A002C00E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE6D001E9BC48C002C00E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDE6D091E9BC48C002C00E1 /* YouBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDE6D0B1E9BC48C002C00E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDE6D141E9BC48C002C00E1 /* YouBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFDE6D061E9BC48C002C00E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDE6CEF1E9BC48A002C00E1 /* YouBook */;
+			targetProxy = CFDE6D051E9BC48C002C00E1 /* PBXContainerItemProxy */;
+		};
+		CFDE6D111E9BC48C002C00E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDE6CEF1E9BC48A002C00E1 /* YouBook */;
+			targetProxy = CFDE6D101E9BC48C002C00E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFDE6CF71E9BC48A002C00E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDE6CF81E9BC48A002C00E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFDE6CFC1E9BC48B002C00E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDE6CFD1E9BC48B002C00E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFDE6D161E9BC48C002C00E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFDE6D171E9BC48C002C00E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFDE6D191E9BC48C002C00E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = YouBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.YouBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFDE6D1A1E9BC48C002C00E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = YouBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.YouBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CFDE6D1C1E9BC48C002C00E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = YouBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.YouBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouBook.app/YouBook";
+			};
+			name = Debug;
+		};
+		CFDE6D1D1E9BC48C002C00E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = YouBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.YouBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouBook.app/YouBook";
+			};
+			name = Release;
+		};
+		CFDE6D1F1E9BC48C002C00E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = YouBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.YouBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YouBook;
+			};
+			name = Debug;
+		};
+		CFDE6D201E9BC48C002C00E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = YouBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.YouBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YouBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFDE6CEB1E9BC48A002C00E1 /* Build configuration list for PBXProject "YouBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDE6D161E9BC48C002C00E1 /* Debug */,
+				CFDE6D171E9BC48C002C00E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDE6D181E9BC48C002C00E1 /* Build configuration list for PBXNativeTarget "YouBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDE6D191E9BC48C002C00E1 /* Debug */,
+				CFDE6D1A1E9BC48C002C00E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFDE6D1B1E9BC48C002C00E1 /* Build configuration list for PBXNativeTarget "YouBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDE6D1C1E9BC48C002C00E1 /* Debug */,
+				CFDE6D1D1E9BC48C002C00E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFDE6D1E1E9BC48C002C00E1 /* Build configuration list for PBXNativeTarget "YouBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDE6D1F1E9BC48C002C00E1 /* Debug */,
+				CFDE6D201E9BC48C002C00E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFDE6CE81E9BC48A002C00E1 /* Project object */;
+}
