@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C3002E9C46B05FD85462DED9 /* Pods_YouBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746381E8E3696AFA5C653D34 /* Pods_YouBookTests.framework */; };
 		CF5582D91E9F0C3900A54AE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF5582D81E9F0C3900A54AE2 /* GoogleService-Info.plist */; };
+		CF5582DF1E9F135300A54AE2 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5582DE1E9F135300A54AE2 /* Classes.swift */; };
+		CF5582E11E9F13D500A54AE2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5582E01E9F13D500A54AE2 /* DataService.swift */; };
+		CF5582E31E9F17EA00A54AE2 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5582E21E9F17EA00A54AE2 /* FeedVC.swift */; };
 		CFDE6CF41E9BC48A002C00E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE6CF31E9BC48A002C00E1 /* AppDelegate.swift */; };
 		CFDE6CF61E9BC48A002C00E1 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE6CF51E9BC48A002C00E1 /* SignInVC.swift */; };
 		CFDE6CF91E9BC48A002C00E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDE6CF71E9BC48A002C00E1 /* Main.storyboard */; };
@@ -47,6 +50,9 @@
 		99A7EB71FCBCCD7F23BD1411 /* Pods-YouBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouBook/Pods-YouBook.debug.xcconfig"; sourceTree = "<group>"; };
 		CDCEA947E7BBBE358BCB3897 /* Pods-YouBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouBookUITests/Pods-YouBookUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CF5582D81E9F0C3900A54AE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF5582DE1E9F135300A54AE2 /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		CF5582E01E9F13D500A54AE2 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CF5582E21E9F17EA00A54AE2 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		CFDE6CF01E9BC48A002C00E1 /* YouBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDE6CF31E9BC48A002C00E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFDE6CF51E9BC48A002C00E1 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -118,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				CFDE6CF51E9BC48A002C00E1 /* SignInVC.swift */,
+				CF5582E21E9F17EA00A54AE2 /* FeedVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -125,6 +132,7 @@
 		CF5582DB1E9F0E8E00A54AE2 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				CF5582E01E9F13D500A54AE2 /* DataService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 		CF5582DC1E9F0EA600A54AE2 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				CF5582DE1E9F135300A54AE2 /* Classes.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -487,6 +496,9 @@
 			files = (
 				CFDE6CF61E9BC48A002C00E1 /* SignInVC.swift in Sources */,
 				CFDE6CF41E9BC48A002C00E1 /* AppDelegate.swift in Sources */,
+				CF5582E31E9F17EA00A54AE2 /* FeedVC.swift in Sources */,
+				CF5582DF1E9F135300A54AE2 /* Classes.swift in Sources */,
+				CF5582E11E9F13D500A54AE2 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
